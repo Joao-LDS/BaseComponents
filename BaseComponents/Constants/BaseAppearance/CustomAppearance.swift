@@ -14,11 +14,15 @@ struct CustomAppearance: BaseAppearance {
         return mainColor
     }
     
-    var normalButtonFont: UIColor {
+    var normalButtonFontColor: UIColor {
         return .white
     }
     
-    init(mainColor: UIColor) {
-        self.mainColor = mainColor
+    var normalButtonBackgroundDisable: UIColor {
+        return UIColor.gray
+    }
+    
+    var normalButtonFontColorDisable: UIColor {
+        return.black
     }
 }

@@ -13,7 +13,7 @@ struct DesignSystem {
     
     private init() { }
     
-    func initialize(appearanceStyle: StyleAppearance = .system) {
+    func initialize(appearanceStyle: StyleAppearance) {
         loadFonts()
         DesignSystem.appearance = appearanceStyle.baseAppearance
     }

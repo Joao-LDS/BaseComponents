@@ -10,5 +10,7 @@ import UIKit
 protocol BaseAppearance {
     var mainColor: UIColor { get }
     var normalButtonBackground: UIColor { get }
-    var normalButtonFont: UIColor { get }
+    var normalButtonBackgroundDisable: UIColor { get }
+    var normalButtonFontColor: UIColor { get }
+    var normalButtonFontColorDisable: UIColor { get }
 }

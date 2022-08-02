@@ -19,12 +19,20 @@ struct SystemAppearance: BaseAppearance {
         }
     }
     
-    var normalButtonFont: UIColor {
+    var normalButtonFontColor: UIColor {
         return UIColor { trait in
             switch trait.userInterfaceStyle {
             case .dark: return .black
             default: return .white
             }
         }
+    }
+    
+    var normalButtonBackgroundDisable: UIColor {
+        return UIColor.gray
+    }
+    
+    var normalButtonFontColorDisable: UIColor {
+        return.black
     }
 }

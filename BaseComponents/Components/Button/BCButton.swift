@@ -18,7 +18,7 @@ public class BCButton: UIButton {
     
     public override var isEnabled: Bool {
         didSet {
-            // TODO: - call function to change state
+            changeState()
         }
     }
     
@@ -73,7 +73,17 @@ public class BCButton: UIButton {
         }
         
         label.text = model.title
-        label.textColor = DesignSystem.appearance.normalButtonFont
+        label.textColor = DesignSystem.appearance.normalButtonFontColor
+    }
+    
+    private func changeState() {
+        backgroundColor = isEnabled ?
+        DesignSystem.appearance.normalButtonBackground :
+        DesignSystem.appearance.normalButtonBackgroundDisable
+        
+        label.textColor = isEnabled ?
+        DesignSystem.appearance.normalButtonFontColor :
+        DesignSystem.appearance.normalButtonFontColorDisable
     }
 }
 
