@@ -30,34 +30,25 @@ extension BCButton {
         
         var height: CGFloat {
             switch self {
-            case .small:
-                return 24
-            case .medium:
-                return 36
-            case .big:
-                return 46
+            case .small: return 24
+            case .medium: return 36
+            case .big: return 46
             }
         }
         
         var font: UIFont {
             switch self {
-            case .small:
-                return .systemFont(ofSize: 12, weight: .medium)
-            case .medium:
-                return .systemFont(ofSize: 16, weight: .semibold)
-            case .big:
-                return .systemFont(ofSize: 20, weight: .bold)
+            case .small: return .fontSemiBold12
+            case .medium: return .fontSemiBold16
+            case .big: return .fontSemiBold20
             }
         }
         
         var cornerRadius: CGFloat {
             switch self {
-            case .small:
-                return BaseDimensions.CornerRadius.smallest
-            case .medium:
-                return BaseDimensions.CornerRadius.small
-            case .big:
-                return BaseDimensions.CornerRadius.medium
+            case .small: return BaseDimensions.CornerRadius.smallest
+            case .medium: return BaseDimensions.CornerRadius.small
+            case .big: return BaseDimensions.CornerRadius.medium
             }
         }
     }

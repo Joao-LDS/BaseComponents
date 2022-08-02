@@ -38,7 +38,5 @@ class ViewController: UIViewController {
         containerStack.centerXAnchor.constraint(equalTo: view.centerXAnchor).isActive = true
         containerStack.centerYAnchor.constraint(equalTo: view.centerYAnchor).isActive = true
     }
-
-
 }
 

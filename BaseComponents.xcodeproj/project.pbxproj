@@ -7,18 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CF0CCF8828984C7E0011DAA6 /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF0CCF8728984C7E0011DAA6 /* UIColor+Extension.swift */; };
+		CF0CCF8B289852570011DAA6 /* SystemAppearance.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF0CCF8A289852570011DAA6 /* SystemAppearance.swift */; };
+		CF0CCF8D289852690011DAA6 /* CustomAppearance.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF0CCF8C289852690011DAA6 /* CustomAppearance.swift */; };
+		CF6FAACB2897FF5500E76F3A /* NotoSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CF6FAAC82897FF5500E76F3A /* NotoSans-Bold.ttf */; };
+		CF6FAACC2897FF5500E76F3A /* NotoSans-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CF6FAAC92897FF5500E76F3A /* NotoSans-Light.ttf */; };
+		CF6FAACD2897FF5500E76F3A /* NotoSans-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CF6FAACA2897FF5500E76F3A /* NotoSans-Medium.ttf */; };
+		CF6FAACF289800E000E76F3A /* UIFont+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF6FAACE289800E000E76F3A /* UIFont+Extension.swift */; };
+		CF6FAAD12898107A00E76F3A /* NotoSans-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CF6FAAD02898107900E76F3A /* NotoSans-SemiBold.ttf */; };
 		CF88D8FF289472A200A3591E /* BaseColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF88D8FE289472A200A3591E /* BaseColor.swift */; };
 		CF88D901289472BE00A3591E /* BCButtonModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF88D900289472BE00A3591E /* BCButtonModel.swift */; };
 		CF88D903289472DA00A3591E /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF88D902289472DA00A3591E /* UIView+Extension.swift */; };
 		CF88D905289472EB00A3591E /* BaseDimensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF88D904289472EB00A3591E /* BaseDimensions.swift */; };
 		CF88D907289472FF00A3591E /* UIStackView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF88D906289472FF00A3591E /* UIStackView+Extension.swift */; };
 		CF88D9092894733A00A3591E /* ViewConfigurable.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF88D9082894733A00A3591E /* ViewConfigurable.swift */; };
-		CF88D90B2894735000A3591E /* Initialize.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF88D90A2894735000A3591E /* Initialize.swift */; };
+		CF88D90B2894735000A3591E /* Initializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF88D90A2894735000A3591E /* Initializer.swift */; };
 		CFB4603F28941D820082EA48 /* BaseComponents.docc in Sources */ = {isa = PBXBuildFile; fileRef = CFB4603E28941D820082EA48 /* BaseComponents.docc */; };
 		CFB4604528941D830082EA48 /* BaseComponents.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFB4603A28941D820082EA48 /* BaseComponents.framework */; };
 		CFB4604A28941D830082EA48 /* BaseComponentsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFB4604928941D830082EA48 /* BaseComponentsTests.swift */; };
 		CFB4604B28941D830082EA48 /* BaseComponents.h in Headers */ = {isa = PBXBuildFile; fileRef = CFB4603D28941D820082EA48 /* BaseComponents.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CFB4607528941EA50082EA48 /* BCButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFB4607428941EA50082EA48 /* BCButton.swift */; };
+		CFC41D6728998E770001E7B7 /* StyleAppearance.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFC41D6628998E770001E7B7 /* StyleAppearance.swift */; };
+		CFC41D6928998E8B0001E7B7 /* DesignSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFC41D6828998E8B0001E7B7 /* DesignSystem.swift */; };
+		CFC41D6D289990390001E7B7 /* BaseFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFC41D6C289990390001E7B7 /* BaseFont.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,19 +43,30 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CF0CCF8728984C7E0011DAA6 /* UIColor+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
+		CF0CCF8A289852570011DAA6 /* SystemAppearance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SystemAppearance.swift; sourceTree = "<group>"; };
+		CF0CCF8C289852690011DAA6 /* CustomAppearance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomAppearance.swift; sourceTree = "<group>"; };
+		CF6FAAC82897FF5500E76F3A /* NotoSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSans-Bold.ttf"; sourceTree = "<group>"; };
+		CF6FAAC92897FF5500E76F3A /* NotoSans-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSans-Light.ttf"; sourceTree = "<group>"; };
+		CF6FAACA2897FF5500E76F3A /* NotoSans-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSans-Medium.ttf"; sourceTree = "<group>"; };
+		CF6FAACE289800E000E76F3A /* UIFont+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIFont+Extension.swift"; sourceTree = "<group>"; };
+		CF6FAAD02898107900E76F3A /* NotoSans-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSans-SemiBold.ttf"; sourceTree = "<group>"; };
 		CF88D8FE289472A200A3591E /* BaseColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseColor.swift; sourceTree = "<group>"; };
 		CF88D900289472BE00A3591E /* BCButtonModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BCButtonModel.swift; sourceTree = "<group>"; };
 		CF88D902289472DA00A3591E /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
 		CF88D904289472EB00A3591E /* BaseDimensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseDimensions.swift; sourceTree = "<group>"; };
 		CF88D906289472FF00A3591E /* UIStackView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIStackView+Extension.swift"; sourceTree = "<group>"; };
 		CF88D9082894733A00A3591E /* ViewConfigurable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewConfigurable.swift; sourceTree = "<group>"; };
-		CF88D90A2894735000A3591E /* Initialize.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Initialize.swift; sourceTree = "<group>"; };
+		CF88D90A2894735000A3591E /* Initializer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Initializer.swift; sourceTree = "<group>"; };
 		CFB4603A28941D820082EA48 /* BaseComponents.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BaseComponents.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CFB4603D28941D820082EA48 /* BaseComponents.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseComponents.h; sourceTree = "<group>"; };
 		CFB4603E28941D820082EA48 /* BaseComponents.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = BaseComponents.docc; sourceTree = "<group>"; };
 		CFB4604428941D830082EA48 /* BaseComponentsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BaseComponentsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CFB4604928941D830082EA48 /* BaseComponentsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseComponentsTests.swift; sourceTree = "<group>"; };
 		CFB4607428941EA50082EA48 /* BCButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BCButton.swift; sourceTree = "<group>"; };
+		CFC41D6628998E770001E7B7 /* StyleAppearance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StyleAppearance.swift; sourceTree = "<group>"; };
+		CFC41D6828998E8B0001E7B7 /* DesignSystem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignSystem.swift; sourceTree = "<group>"; };
+		CFC41D6C289990390001E7B7 /* BaseFont.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseFont.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +88,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CF0CCF892898524D0011DAA6 /* BaseAppearance */ = {
+			isa = PBXGroup;
+			children = (
+				CF0CCF8A289852570011DAA6 /* SystemAppearance.swift */,
+				CF0CCF8C289852690011DAA6 /* CustomAppearance.swift */,
+			);
+			path = BaseAppearance;
+			sourceTree = "<group>";
+		};
+		CF6FAAC72897F87B00E76F3A /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				CF6FAAC82897FF5500E76F3A /* NotoSans-Bold.ttf */,
+				CF6FAAC92897FF5500E76F3A /* NotoSans-Light.ttf */,
+				CF6FAACA2897FF5500E76F3A /* NotoSans-Medium.ttf */,
+				CF6FAAD02898107900E76F3A /* NotoSans-SemiBold.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
 		CF88D90C289473C700A3591E /* Components */ = {
 			isa = PBXGroup;
 			children = (
@@ -86,8 +128,10 @@
 		CF88D90E289473FC00A3591E /* Constants */ = {
 			isa = PBXGroup;
 			children = (
+				CF0CCF892898524D0011DAA6 /* BaseAppearance */,
 				CF88D8FE289472A200A3591E /* BaseColor.swift */,
 				CF88D904289472EB00A3591E /* BaseDimensions.swift */,
+				CFC41D6C289990390001E7B7 /* BaseFont.swift */,
 			);
 			path = Constants;
 			sourceTree = "<group>";
@@ -97,6 +141,8 @@
 			children = (
 				CF88D902289472DA00A3591E /* UIView+Extension.swift */,
 				CF88D906289472FF00A3591E /* UIStackView+Extension.swift */,
+				CF6FAACE289800E000E76F3A /* UIFont+Extension.swift */,
+				CF0CCF8728984C7E0011DAA6 /* UIColor+Extension.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -130,9 +176,11 @@
 		CFB4603C28941D820082EA48 /* BaseComponents */ = {
 			isa = PBXGroup;
 			children = (
+				CF6FAAC72897F87B00E76F3A /* Fonts */,
 				CFB4603D28941D820082EA48 /* BaseComponents.h */,
 				CFB4603E28941D820082EA48 /* BaseComponents.docc */,
-				CF88D90A2894735000A3591E /* Initialize.swift */,
+				CFC41D6B28998FBB0001E7B7 /* DesignSystemManager */,
+				CFC41D6A28998F7D0001E7B7 /* Initializer */,
 				CF88D90C289473C700A3591E /* Components */,
 				CF88D90F2894740800A3591E /* Extensions */,
 				CF88D90E289473FC00A3591E /* Constants */,
@@ -147,6 +195,23 @@
 				CFB4604928941D830082EA48 /* BaseComponentsTests.swift */,
 			);
 			path = BaseComponentsTests;
+			sourceTree = "<group>";
+		};
+		CFC41D6A28998F7D0001E7B7 /* Initializer */ = {
+			isa = PBXGroup;
+			children = (
+				CF88D90A2894735000A3591E /* Initializer.swift */,
+			);
+			path = Initializer;
+			sourceTree = "<group>";
+		};
+		CFC41D6B28998FBB0001E7B7 /* DesignSystemManager */ = {
+			isa = PBXGroup;
+			children = (
+				CFC41D6628998E770001E7B7 /* StyleAppearance.swift */,
+				CFC41D6828998E8B0001E7B7 /* DesignSystem.swift */,
+			);
+			path = DesignSystemManager;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -241,6 +306,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CF6FAACC2897FF5500E76F3A /* NotoSans-Light.ttf in Resources */,
+				CF6FAACB2897FF5500E76F3A /* NotoSans-Bold.ttf in Resources */,
+				CF6FAAD12898107A00E76F3A /* NotoSans-SemiBold.ttf in Resources */,
+				CF6FAACD2897FF5500E76F3A /* NotoSans-Medium.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,12 +330,19 @@
 				CF88D901289472BE00A3591E /* BCButtonModel.swift in Sources */,
 				CF88D907289472FF00A3591E /* UIStackView+Extension.swift in Sources */,
 				CF88D8FF289472A200A3591E /* BaseColor.swift in Sources */,
+				CF0CCF8828984C7E0011DAA6 /* UIColor+Extension.swift in Sources */,
 				CFB4607528941EA50082EA48 /* BCButton.swift in Sources */,
 				CF88D903289472DA00A3591E /* UIView+Extension.swift in Sources */,
+				CFC41D6928998E8B0001E7B7 /* DesignSystem.swift in Sources */,
+				CF0CCF8B289852570011DAA6 /* SystemAppearance.swift in Sources */,
+				CF0CCF8D289852690011DAA6 /* CustomAppearance.swift in Sources */,
 				CF88D9092894733A00A3591E /* ViewConfigurable.swift in Sources */,
+				CFC41D6728998E770001E7B7 /* StyleAppearance.swift in Sources */,
+				CFC41D6D289990390001E7B7 /* BaseFont.swift in Sources */,
 				CFB4603F28941D820082EA48 /* BaseComponents.docc in Sources */,
 				CF88D905289472EB00A3591E /* BaseDimensions.swift in Sources */,
-				CF88D90B2894735000A3591E /* Initialize.swift in Sources */,
+				CF6FAACF289800E000E76F3A /* UIFont+Extension.swift in Sources */,
+				CF88D90B2894735000A3591E /* Initializer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

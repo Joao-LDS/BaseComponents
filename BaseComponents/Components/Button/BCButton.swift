@@ -28,6 +28,7 @@ public class BCButton: UIButton {
         view.spacing = 0
         view.distribution = .fill
         view.axis = .horizontal
+        view.isUserInteractionEnabled = false
         return view
     }()
     
@@ -59,7 +60,7 @@ public class BCButton: UIButton {
         
         translatesAutoresizingMaskIntoConstraints = false
         layer.masksToBounds = true
-        backgroundColor = BaseColor.Button.background.color
+        backgroundColor = DesignSystem.appearance.normalButtonBackground
         
         switch model.style {
         case .normal(let size):
@@ -72,7 +73,7 @@ public class BCButton: UIButton {
         }
         
         label.text = model.title
-        label.textColor = BaseColor.Button.font.color
+        label.textColor = DesignSystem.appearance.normalButtonFont
     }
 }
 
