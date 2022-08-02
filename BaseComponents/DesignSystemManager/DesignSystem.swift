@@ -9,7 +9,7 @@ import UIKit
 
 struct DesignSystem {
     static let shared = DesignSystem()
-    private(set) static var appearance: BaseAppearanceColor!
+    private(set) static var appearance: BaseAppearance!
     
     private init() { }
     

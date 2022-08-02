@@ -15,7 +15,6 @@
 		CF6FAACD2897FF5500E76F3A /* NotoSans-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CF6FAACA2897FF5500E76F3A /* NotoSans-Medium.ttf */; };
 		CF6FAACF289800E000E76F3A /* UIFont+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF6FAACE289800E000E76F3A /* UIFont+Extension.swift */; };
 		CF6FAAD12898107A00E76F3A /* NotoSans-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CF6FAAD02898107900E76F3A /* NotoSans-SemiBold.ttf */; };
-		CF88D8FF289472A200A3591E /* BaseColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF88D8FE289472A200A3591E /* BaseColor.swift */; };
 		CF88D901289472BE00A3591E /* BCButtonModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF88D900289472BE00A3591E /* BCButtonModel.swift */; };
 		CF88D903289472DA00A3591E /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF88D902289472DA00A3591E /* UIView+Extension.swift */; };
 		CF88D905289472EB00A3591E /* BaseDimensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF88D904289472EB00A3591E /* BaseDimensions.swift */; };
@@ -30,6 +29,7 @@
 		CFC41D6728998E770001E7B7 /* StyleAppearance.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFC41D6628998E770001E7B7 /* StyleAppearance.swift */; };
 		CFC41D6928998E8B0001E7B7 /* DesignSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFC41D6828998E8B0001E7B7 /* DesignSystem.swift */; };
 		CFC41D6D289990390001E7B7 /* BaseFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFC41D6C289990390001E7B7 /* BaseFont.swift */; };
+		CFC41D6F289994DA0001E7B7 /* BaseAppearance.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFC41D6E289994D90001E7B7 /* BaseAppearance.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,7 +51,6 @@
 		CF6FAACA2897FF5500E76F3A /* NotoSans-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSans-Medium.ttf"; sourceTree = "<group>"; };
 		CF6FAACE289800E000E76F3A /* UIFont+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIFont+Extension.swift"; sourceTree = "<group>"; };
 		CF6FAAD02898107900E76F3A /* NotoSans-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSans-SemiBold.ttf"; sourceTree = "<group>"; };
-		CF88D8FE289472A200A3591E /* BaseColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseColor.swift; sourceTree = "<group>"; };
 		CF88D900289472BE00A3591E /* BCButtonModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BCButtonModel.swift; sourceTree = "<group>"; };
 		CF88D902289472DA00A3591E /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
 		CF88D904289472EB00A3591E /* BaseDimensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseDimensions.swift; sourceTree = "<group>"; };
@@ -67,6 +66,7 @@
 		CFC41D6628998E770001E7B7 /* StyleAppearance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StyleAppearance.swift; sourceTree = "<group>"; };
 		CFC41D6828998E8B0001E7B7 /* DesignSystem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignSystem.swift; sourceTree = "<group>"; };
 		CFC41D6C289990390001E7B7 /* BaseFont.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseFont.swift; sourceTree = "<group>"; };
+		CFC41D6E289994D90001E7B7 /* BaseAppearance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseAppearance.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -129,7 +129,6 @@
 			isa = PBXGroup;
 			children = (
 				CF0CCF892898524D0011DAA6 /* BaseAppearance */,
-				CF88D8FE289472A200A3591E /* BaseColor.swift */,
 				CF88D904289472EB00A3591E /* BaseDimensions.swift */,
 				CFC41D6C289990390001E7B7 /* BaseFont.swift */,
 			);
@@ -151,6 +150,7 @@
 			isa = PBXGroup;
 			children = (
 				CF88D9082894733A00A3591E /* ViewConfigurable.swift */,
+				CFC41D6E289994D90001E7B7 /* BaseAppearance.swift */,
 			);
 			path = Protocols;
 			sourceTree = "<group>";
@@ -329,7 +329,7 @@
 			files = (
 				CF88D901289472BE00A3591E /* BCButtonModel.swift in Sources */,
 				CF88D907289472FF00A3591E /* UIStackView+Extension.swift in Sources */,
-				CF88D8FF289472A200A3591E /* BaseColor.swift in Sources */,
+				CFC41D6F289994DA0001E7B7 /* BaseAppearance.swift in Sources */,
 				CF0CCF8828984C7E0011DAA6 /* UIColor+Extension.swift in Sources */,
 				CFB4607528941EA50082EA48 /* BCButton.swift in Sources */,
 				CF88D903289472DA00A3591E /* UIView+Extension.swift in Sources */,

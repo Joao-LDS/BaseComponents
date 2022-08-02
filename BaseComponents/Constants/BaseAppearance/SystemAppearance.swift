@@ -7,7 +7,7 @@
 
 import UIKit
 
-struct SystemAppearance: BaseAppearanceColor {
+struct SystemAppearance: BaseAppearance {
     var mainColor: UIColor = UIColor()
     
     var normalButtonBackground: UIColor {

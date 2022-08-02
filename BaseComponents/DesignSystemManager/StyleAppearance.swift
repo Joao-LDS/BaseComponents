@@ -11,7 +11,7 @@ public enum StyleAppearance {
     case system
     case custom(UIColor)
     
-    var baseAppearance: BaseAppearanceColor {
+    var baseAppearance: BaseAppearance {
         switch self {
         case .system: return SystemAppearance()
         case .custom(let color): return CustomAppearance(mainColor: color)
