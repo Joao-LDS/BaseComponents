@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name = 'BaseComponents'
-  s.version = '0.1'
+  s.version = '0.2'
   s.license = 'MIT'
   s.summary = 'Elegant HTTP Networking in Swift'
   spec.author = { "Joao-LDS" => "joao_l_d_s@hotmail.com" }
