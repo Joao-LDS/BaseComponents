@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name = 'BaseComponents'
-  s.version = '0.6'
+  s.version = '0.7'
   s.license = 'MIT'
   s.summary = 'Simple Design System'
   s.homepage = 'https://github.com/Joao-LDS/BaseComponents'
@@ -12,5 +12,5 @@ Pod::Spec.new do |s|
 
   s.swift_versions = ['5']
 
-  s.source_files = 'BaseComponents/*.swift'
+  s.source_files = '*.swift'
 end
