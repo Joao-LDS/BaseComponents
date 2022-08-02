@@ -1,8 +1,8 @@
 Pod::Spec.new do |s|
   s.name = 'BaseComponents'
-  s.version = '0.2'
+  s.version = '0.3'
   s.license = 'MIT'
-  s.summary = 'Elegant HTTP Networking in Swift'
+  s.summary = 'Simple Design System'
   spec.author = { "Joao-LDS" => "joao_l_d_s@hotmail.com" }
   s.source = { :git => 'https://github.com/Joao-LDS/BaseComponents.git', :tag => s.version }
 
@@ -10,5 +10,5 @@ Pod::Spec.new do |s|
 
   s.swift_versions = ['5']
 
-  s.source_files = '/*.swift'
+  s.source_files = 'BaseComponents/*.swift'
 end
